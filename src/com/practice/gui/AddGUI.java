@@ -34,7 +34,7 @@ class Calc extends JFrame
 		t1 = new JTextField(20);
 		t2 = new JTextField(20);
 		addRB = new JRadioButton("Add");
-		subRB = new JRadioButton("Sub");
+		subRB = new JRadioButton("Substract");
 		ButtonGroup bg = new ButtonGroup();
 		bg.add(addRB);
 		bg.add(subRB);
