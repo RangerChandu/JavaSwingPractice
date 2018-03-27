@@ -20,8 +20,10 @@ class Abc extends JFrame{
 		
 		JLabel l = new JLabel("Hello World!");
 		JLabel l1 = new JLabel("Its me");
+		JLabel l2 = new JLabel("This is added to see pull request in github");
 		add(l);
 		add(l1);
+		add(l2);
 		
 		setLayout(new FlowLayout());
 		setVisible(true);
