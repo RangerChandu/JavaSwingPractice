@@ -40,7 +40,7 @@ class Calc extends JFrame
 		bg.add(subRB);
 		
 		calculateB = new JButton("Calculate");
-		resultsLabel = new JLabel("Results");
+		resultsLabel = new JLabel("Result");
 		resultsField = new JTextField(5);
 		resultsField.setEditable(false);
 		add(t1);
